@@ -9,4 +9,9 @@ export default defineConfig({
   exports: {
     devExports: "dev",
   },
+  inputOptions: {
+    resolve: {
+      conditionNames: ["dev"],
+    },
+  },
 });
