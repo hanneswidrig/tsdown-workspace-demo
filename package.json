@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
-    "@typescript/native-preview": "7.0.0-dev.20260304.1",
-    "tsdown": "^0.21.0-beta.4"
+    "@typescript/native-preview": "7.0.0-dev.20260305.1",
+    "tsdown": "^0.21.0"
   },
   "pnpm": {
     "overrides": {
