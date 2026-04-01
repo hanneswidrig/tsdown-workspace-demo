@@ -19,6 +19,7 @@
   "devDependencies": {
     "@lib/aurora": "workspace:*",
     "@lib/nebula": "workspace:*",
-    "@lib/zenith": "workspace:*"
+    "@lib/zenith": "workspace:*",
+    "tsdown": "catalog:"
   }
 }
