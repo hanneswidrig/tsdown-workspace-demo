@@ -3,9 +3,12 @@ packages:
   - libs/*
 
 catalog:
-  "@types/node": "^25.5.0"
-  "@typescript/native-preview": "7.0.0-dev.20260401.1"
+  "@types/node": "^25.5.2"
+  "@typescript/native-preview": "7.0.0-dev.20260403.1"
   "tsdown": "^0.21.7"
 
 onlyBuiltDependencies:
   - esbuild
+
+overrides:
+  "rolldown": "^1.0.0-rc.13"

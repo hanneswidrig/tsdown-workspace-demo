@@ -1,8 +1,7 @@
 {
-  "name": "api",
+  "name": "@repo/demo",
   "version": "0.1.0",
   "type": "module",
-  "types": "./dist/index.d.mts",
   "exports": {
     ".": "./src/index.ts",
     "./package.json": "./package.json"
@@ -12,9 +11,6 @@
       ".": "./dist/index.mjs",
       "./package.json": "./package.json"
     }
-  },
-  "dependencies": {
-    "@lib/external": "workspace:*"
   },
   "devDependencies": {
     "@lib/aurora": "workspace:*",
